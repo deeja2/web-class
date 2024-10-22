@@ -1,0 +1,264 @@
+*{
+    margin: 0; 
+    /* color: gold; */
+ }
+nav a{
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 12px;
+  background-color: yellow;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+nav{
+  text-align: center;
+}
+.img{
+ height: 250px;
+ width: 250px;
+ object-fit: cover;
+ border-radius: 100%;
+}
+
+header{
+    background: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+
+}
+h1,h2,h3,h4,h5,h6{
+  /* margin-left: 15px;
+  margin-bottom: 15px; */
+  margin: 0 0 15px 15px;
+  border: 1px solid green;
+  padding: 10px;
+  width: fit-content;
+  text-transform: capitalize;
+}
+
+ol,ul{
+   background: tomato;
+   padding: 25px;
+   width: 250px;
+   margin: 15px;
+   text-transform: capitalize;
+   font-size: 18px;
+
+}
+
+.para{
+  color: blue;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2px 0 10px 20px;
+  max-width: 700px;
+  line-height: 35px;
+}
+
+ul > #list{
+  text-decoration: underline;
+}
+
+.form-group
+{
+  color: blueviolet;
+  margin: 20px;
+  text-transform: capitalize;
+}
+.contact-container{
+  margin: 20px;
+}
+.contact-container div{
+  margin: 20px;
+}
+.btn{
+  background-color: aqua;
+  margin: 20px; 
+  height: 50px; 
+  width: 150px;
+  border-radius: 5px;
+  border:none ;
+}
+.form-label{
+  background-color:tomato;
+  border: radius 5px; 
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  color: white;
+}
+.form-control{
+  border: 1px solid tomato;
+  outline: none;
+  padding: 10px;
+  width:150 ;
+
+}
+.contact-address{
+  height: 50px;
+  width: 150;
+  padding:10px ;
+
+}
+table {
+  width: 850px;
+  border-collapse:collapse;
+  margin-left:50px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 3px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+th {
+  background-color: #f2f2f2;
+  
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.form-wrapper{
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+.reg-form{
+  background-color: rgb(139, 139, 27);
+  border-radius: 30px;
+  border: none;
+  
+  
+}
+.form{
+  width: 460px; 
+  display: flex;
+  flex-direction:column ;
+  /* min-width: 30rem; */
+  background: #996f6f;
+  height: auto;
+  padding: 30px;
+  gap: 30px;
+}
+.form label{
+  text-transform:capitalize ;
+  /* opacity:0.3 ; */
+  font-size: 1rem;
+  font-weight:500 ;
+  color: black;
+  font-family: sans-serif;
+}
+.form {
+  display: inline-flex;
+  gap: 20px;
+}
+input{
+  padding:9px ;
+  height: 30px;
+  width: 300px;
+
+  /* padding:10px 50px; */
+  border-radius: 50px;
+}
+/* .email{
+  margin-left: 35px;
+} */
+.button{
+  background:rgb(139, 139, 27) ;
+  opacity: 0.6;
+  width: 230px;
+  height: 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: aliceblue;
+  cursor: pointer;
+  border: none;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+  .city-list{  
+    background-color: rgb(150, 200,100);
+    padding:10px ;
+    color: rgb(139, 139, 27);
+  }
+.gb-hello{
+  background-color: rgb(160, 20, 150);
+  color: rgb(230, 225, 233);
+  padding: 15px;
+}
+.fg-hi{
+  background-color: #815a5a;
+  color: #f2f2f2;
+}
+.fc-control{
+  background-color: #97a32a;
+  color: #4f4f79;
+  padding: 10px;
+}
+
+.banner{
+  background: linear-gradient(rgba(22,88,200,0.6), rgb(228, 168, 129), #97a32a20), url(images/pexels-divinetechygirl-1181244.jpg);
+  height: 300px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-banner{
+  background: linear-gradient(rgba(22,80,150,0.8), rgb(230,198,140), #4f4f79), url(images/pexels-luis-gomes-166706-546819.jpg);
+  height: 200px;
+  background-position:center ;
+}
+.form-banner{
+background:radial-gradient(rgba(40,150,250,0.5), rgba(200,250,130,0.3), #996f6f), url(images/pexels-divinetechygirl-1181326.jpg );
+height: 200px;
+background-position: center;
+}
+.league-banner{
+  background:radial-gradient(rgba(200,70,230,0.3), rgba(228, 171, 135, 0.8), #f3f3f0), url(images/pexels-divinetechygirl-1181326.jpg) ;
+  height: 150px;
+  background-position: center; 
+  color: white ;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-banner{
+  background: linear-gradient(rgb(214, 201, 126), rgb(46, 51, 78), #f3f3f0), url(images/pexels-luis-gomes-166706-546819.jpg);
+  height: 200px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+
+

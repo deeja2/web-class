@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child"> 
+            <div class="box" id="red">relative</div>
+            <div class="box" id="blue">absolute</div>
+            <div class="box" id="yellow">fixed</div>
+            <div class="box" id="green">sticky</div>
+        </div>
+    </div>
+
+    <style>
+        body{
+            height: 300vh;
+        }
+        .container{
+            height: 700px; ;
+            width: 50%;
+            /* display: grid;
+            place-content: center; */
+            border: 5px dotted red;
+            margin: 100px 100px;
+            position: relative;
+        }
+        .child{
+            height: 400px;
+            width: 75%;
+            border:3px solid gray;
+            margin:100px 35px ;
+            position: relative;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            color: #fff;
+        }
+        #red{
+            background-color:red ;
+        }
+        #blue{
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            right: 0;
+
+        }
+        #yellow{
+            background-color:yellow ;
+            color: #000;
+            position: fixed;
+            z-index: -20;
+        }
+        #green{
+            background-color: green;
+            position: sticky ;
+            top:200px ;
+        }
+        
+    </style>
+</body>
+</html>
